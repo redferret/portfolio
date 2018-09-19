@@ -2106,8 +2106,8 @@ module.exports = exports['default'];
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return MAIN_ID; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return ROOT_URL; });
+/* unused harmony export MAIN_ID */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return ROOT_URL; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IMAGE_ASSET; });
 
 // Add all your constants here. These can be constants for your actions/routes.
@@ -44545,10 +44545,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /**
  * Root route for the application
  */
-__WEBPACK_IMPORTED_MODULE_1__router_js__["a" /* default */].registerRoute(__WEBPACK_IMPORTED_MODULE_0__constants_js__["c" /* ROOT_URL */], function (args) {
+__WEBPACK_IMPORTED_MODULE_1__router_js__["a" /* default */].registerRoute(__WEBPACK_IMPORTED_MODULE_0__constants_js__["b" /* ROOT_URL */], function (args) {
   return $('meta[name="rootURL"]').attr('content');
 });
-var ROOT = __WEBPACK_IMPORTED_MODULE_1__router_js__["a" /* default */].route(__WEBPACK_IMPORTED_MODULE_0__constants_js__["c" /* ROOT_URL */]);
+var ROOT = __WEBPACK_IMPORTED_MODULE_1__router_js__["a" /* default */].route(__WEBPACK_IMPORTED_MODULE_0__constants_js__["b" /* ROOT_URL */]);
 
 /**
  * Register the rest of your routes below. The following can be deleted or
@@ -44604,26 +44604,13 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Main = function (_React$Component) {
   _inherits(Main, _React$Component);
 
-  function Main(props, context) {
+  function Main() {
     _classCallCheck(this, Main);
 
-    return _possibleConstructorReturn(this, (Main.__proto__ || Object.getPrototypeOf(Main)).call(this, props, context));
+    return _possibleConstructorReturn(this, (Main.__proto__ || Object.getPrototypeOf(Main)).apply(this, arguments));
   }
 
   _createClass(Main, [{
-    key: '_onChange',
-    value: function _onChange() {}
-  }, {
-    key: 'componentDidMount',
-    value: function componentDidMount() {
-      __WEBPACK_IMPORTED_MODULE_5__stores_MainStore_js__["a" /* default */].on(__WEBPACK_IMPORTED_MODULE_11__constants_js__["b" /* MAIN_ID */], this._onChange.bind(this));
-    }
-  }, {
-    key: 'componentWillUnmount',
-    value: function componentWillUnmount() {
-      __WEBPACK_IMPORTED_MODULE_5__stores_MainStore_js__["a" /* default */].removeListener(__WEBPACK_IMPORTED_MODULE_11__constants_js__["b" /* MAIN_ID */], this._onChange.bind(this));
-    }
-  }, {
     key: 'render',
     value: function render() {
       var bulletPoints = __WEBPACK_IMPORTED_MODULE_5__stores_MainStore_js__["a" /* default */].getAboutMeBulletPoints();

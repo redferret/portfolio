@@ -24,23 +24,6 @@ import {
 
 export default class Main extends React.Component {
 
-  constructor(props, context) {
-    super(props, context);
-
-  }
-
-  _onChange() {
-
-  }
-
-  componentDidMount() {
-    MainStore.on(MAIN_ID, this._onChange.bind(this));
-  }
-
-  componentWillUnmount() {
-    MainStore.removeListener(MAIN_ID, this._onChange.bind(this));
-  }
-
   render() {
     let bulletPoints = MainStore.getAboutMeBulletPoints();
     return (
