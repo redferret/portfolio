@@ -19,6 +19,15 @@ export default class Navbar extends React.Component {
                   <a className='dropdown-item navbar-text-custom small-padding' href='#'>Projects</a>
                 </div>
               </div>
+              <div className='d-flex flex-row'>
+                <div className='p-2'>
+                  <img width={32} height={32}
+                    src={Router.route(IMAGE_ASSET, {fileName: 'iconmonstr-speech-bubble-comment-thin-240.png'})} />
+                </div>
+                <div className='p-2'>
+                  <a className='dropdown-item navbar-text-custom small-padding' href='#'>Blog</a>
+                </div>
+              </div>
             </div>
           </div>
         </button>

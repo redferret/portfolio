@@ -1,4 +1,7 @@
 import AppDispatcher from '../dispatcher.js';
+import Bio from './Bio.js';
+import BulletPoint from './BulletPoint.js';
+import GoldsmithingBio from './GoldsmithingBio.js';
 import MainStore from '../stores/MainStore.js';
 import Navbar from './Navbar.js';
 import React from 'react';
@@ -6,10 +9,11 @@ import ReactDOM from 'react-dom';
 import Router from '../router.js';
 
 import {
-  Label,
-  Grid,
-  Row,
   Col,
+  Grid,
+  Label,
+  Media,
+  Row,
 } from 'react-bootstrap';
 
 import {
@@ -37,6 +41,7 @@ export default class Main extends React.Component {
   }
 
   render() {
+    let bulletPoints = MainStore.getAboutMeBulletPoints();
     return (
       <div>
         <Navbar />
@@ -51,30 +56,56 @@ export default class Main extends React.Component {
         </Row>
         <Row id='page-content'>
           <Col sm={12}>
-            <h1 className='box-text box-padding-left-lg box-padding-top'>About Me</h1>
             <div className='box-container'>
-              <div className='box'>
-                <h3 className='box-text box-padding-top box-padding-left-sm'>
-                  <span className='box-text-bold'>Name: </span>
-                  Richard Evans DeSilvey
-                </h3>
-                <h3 className='box-text box-padding-top box-padding-left-sm'>
-                  <span className='box-text-bold'>Education: </span>
-                  Metropolitain State University of Denver (2017)
-                </h3>
-                <h3 className='box-text box-padding-left-sm'>
-                  <span className='box-text-bold'>Degrees: </span>
-                  Bachlor of Science in Computer Science, Minor in Mathematics
-                </h3>
-                <h3 className='box-text box-padding-left-sm'>
-                  <span className='box-text-bold'>Focus: </span>
-                  Software Development
-                </h3>
-                <h3 className='box-text box-padding-top box-padding-left-sm'>
-                  <span className='box-text-bold'>Hobbies: </span>
-                  Studying Geology, Hiking/Climbing, Biology, Goldsmithing
-                </h3>
+              <div className='box box-padding-top box-padding-bottom'>
+                <Media>
+                  <Media.Left align='top' className='box-padding-left-sm'>
+                    <img alt="thumbnail" src={Router.route(IMAGE_ASSET, {fileName: 'iconmonstr-id-card-thin-64.png'})}/>
+                  </Media.Left>
+                  <Media.Body>
+                    <h2 className='box-text box-padding-left-md box-padding-bottom'>About Me</h2>
+                    {bulletPoints.map((bullet, index) =>
+                      <BulletPoint key={bullet.subject+index} className='box-text box-padding-left-md'
+                        subject={bullet.subject} content={bullet.content} />
+                    )}
+                  </Media.Body>
+                </Media>
               </div>
+            </div>
+
+            <div className='box-container'>
+              <Bio />
+            </div>
+
+            <div className='box-container'>
+              <div className='box box-padding-top box-padding-bottom box-padding-left-sm'>
+                <Media>
+                  <Media.Left align='top'>
+                    <img alt="thumbnail" src={Router.route(IMAGE_ASSET, {fileName: 'iconmonstr-gear-thin-64.png'})}/>
+                  </Media.Left>
+                  <Media.Body>
+                    <h2 className='box-text box-padding-bottom box-padding-left-md'>Work History</h2>
+                  </Media.Body>
+                </Media>
+              </div>
+            </div>
+
+            <div className='box-container'>
+              <div className='box box-padding-top box-padding-bottom box-padding-left-sm'>
+                <Media>
+                  <Media.Left align='top'>
+                    <img alt="thumbnail" src={Router.route(IMAGE_ASSET, {fileName: 'iconmonstr-pencil-thin-64.png'})}/>
+                  </Media.Left>
+                  <Media.Body>
+                    <h3 className='box-text box-padding-bottom box-padding-left-md'>Projects</h3>
+                  </Media.Body>
+                </Media>
+
+              </div>
+            </div>
+
+            <div className='box-container'>
+              <GoldsmithingBio />
             </div>
           </Col>
         </Row>
