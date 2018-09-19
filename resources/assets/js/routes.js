@@ -14,3 +14,6 @@ const ROOT = Router.route(Constants.ROOT_URL);
  * Register the rest of your routes below. The following can be deleted or
  * used for future reference.
  */
+Router.registerRoute(Constants.IMAGE_ASSET, args => {
+  return ROOT + '/images/' + args.fileName;
+})

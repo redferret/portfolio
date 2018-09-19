@@ -12,10 +12,6 @@
  */
 
 
-Auth::routes();
+// Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
-
-Route::get('/getExampleMessage/{id}', function($id) {
-  return array('message'=>'Success! Message '.$id.' received!');
-});

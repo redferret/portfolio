@@ -1,9 +1,8 @@
 var EventEmitter = require('events').EventEmitter;
 
 class MainStore extends EventEmitter {
-
   constructor() {
-
+    super();
   }
 
 }

@@ -1,4 +1,75 @@
 
 body {
+  background-color: rgb(117, 151, 206);
+}
+
+.navbar-text-custom {
+  color: white;
+  background-color: inherit;
+}
+
+.navbar-text-custom:hover {
+  color: grey;
+  background-color: inherit;
+}
+
+.box-container {
+  background-color: inherit;
+  padding: 25px;
+}
+
+.box {
+  border-left: 8px solid rgb(26, 68, 137);
+  box-shadow: 2px 3px rgb(34, 54, 86);
   background-color: rgb(65, 102, 160);
+}
+
+.box-padding-top {
+  padding-top: 25px;
+}
+
+.box-padding-bottom {
+  padding-bottom: 25px;
+}
+
+.box-padding-left-sm {
+  padding-left: 10px;
+}
+
+.box-padding-left-md {
+  padding-left: 20px;
+}
+
+.box-padding-left-lg {
+  padding-left: 30px;
+}
+
+.box-padding-right-sm {
+  padding-right: 10px;
+}
+
+.box-text {
+  color: rgb(199, 208, 224);
+  font-family: sans-serif;
+}
+
+.box-text-bold {
+  font-weight: bold;
+}
+
+.box-center {
+  text-align: center;
+}
+
+.box-left {
+  text-align: left;
+}
+
+.box-right {
+  text-align: right;
+}
+
+.small-padding {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
