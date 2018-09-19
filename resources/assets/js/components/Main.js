@@ -1,5 +1,6 @@
 import AppDispatcher from '../dispatcher.js';
 import Bio from './Bio.js';
+import Box from './Box.js';
 import BulletPoint from './BulletPoint.js';
 import GoldsmithingBio from './GoldsmithingBio.js';
 import MainStore from '../stores/MainStore.js';
@@ -56,57 +57,19 @@ export default class Main extends React.Component {
         </Row>
         <Row id='page-content'>
           <Col sm={12}>
-            <div className='box-container'>
-              <div className='box box-padding-top box-padding-bottom'>
-                <Media>
-                  <Media.Left align='top' className='box-padding-left-sm'>
-                    <img alt="thumbnail" src={Router.route(IMAGE_ASSET, {fileName: 'iconmonstr-id-card-thin-64.png'})}/>
-                  </Media.Left>
-                  <Media.Body>
-                    <h2 className='box-text box-padding-left-md box-padding-bottom'>About Me</h2>
-                    {bulletPoints.map((bullet, index) =>
-                      <BulletPoint key={bullet.subject+index} className='box-text box-padding-left-md'
-                        subject={bullet.subject} content={bullet.content} />
-                    )}
-                  </Media.Body>
-                </Media>
-              </div>
-            </div>
-
-            <div className='box-container'>
-              <Bio />
-            </div>
-
-            <div className='box-container'>
-              <div className='box box-padding-top box-padding-bottom box-padding-left-sm'>
-                <Media>
-                  <Media.Left align='top'>
-                    <img alt="thumbnail" src={Router.route(IMAGE_ASSET, {fileName: 'iconmonstr-gear-thin-64.png'})}/>
-                  </Media.Left>
-                  <Media.Body>
-                    <h2 className='box-text box-padding-bottom box-padding-left-md'>Work History</h2>
-                  </Media.Body>
-                </Media>
-              </div>
-            </div>
-
-            <div className='box-container'>
-              <div className='box box-padding-top box-padding-bottom box-padding-left-sm'>
-                <Media>
-                  <Media.Left align='top'>
-                    <img alt="thumbnail" src={Router.route(IMAGE_ASSET, {fileName: 'iconmonstr-pencil-thin-64.png'})}/>
-                  </Media.Left>
-                  <Media.Body>
-                    <h3 className='box-text box-padding-bottom box-padding-left-md'>Projects</h3>
-                  </Media.Body>
-                </Media>
-
-              </div>
-            </div>
-
-            <div className='box-container'>
-              <GoldsmithingBio />
-            </div>
+            <Box title='About Me' imageFile='iconmonstr-id-card-thin-64.png' contentCallback={() => {
+              return (
+                bulletPoints.map((bullet, index) =>
+                  <BulletPoint key={bullet.subject+index} className='box-text box-padding-left-md'
+                    subject={bullet.subject} content={bullet.content} />
+                )
+              )}} />
+            <Box title='Quick Bio' imageFile='iconmonstr-user-male-thin-240.png' contentCallback={() => <Bio />} />
+            <Box title='Work History' imageFile='iconmonstr-gear-thin-64.png' contentCallback={() => {}} />
+            <Box title='Projects' imageFile='iconmonstr-pencil-thin-64.png' contentCallback={() => {}} />
+            <Box title='As a Goldsmith' imageSrc='https://14k9.com/images/categories/DJ/dj541a.jpg'
+              imageWidth={128} imageHeight={128}
+              contentCallback={() => <GoldsmithingBio />} />
           </Col>
         </Row>
       </div>
