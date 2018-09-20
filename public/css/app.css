@@ -2,6 +2,13 @@ body {
   background-color: #7597ce;
 }
 
+#portrait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .navbar-text-custom {
   color: white;
   background-color: inherit;
