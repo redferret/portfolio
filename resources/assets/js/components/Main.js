@@ -68,12 +68,6 @@ export default class Main extends React.Component {
             <BoxContainer boxContent={
               <BoxContent title='Projects' imageFile='iconmonstr-pencil-thin-64.png' contentCallback={() => {}} />
             }/>
-            <BoxContainer boxContent={
-              <BoxContent title='As a Goldsmith' imageSrc='https://14k9.com/images/categories/DJ/dj541a.jpg'
-                imageWidth={128} imageHeight={128} imageLink='https://14k9.com'
-                contentCallback={() => <GoldsmithingBio />} />
-            }/>
-
           </Col>
         </Row>
       </div>
