@@ -77,10 +77,19 @@ export default class Main extends React.Component {
                       </Row>
                       <Row>
                         <Col sm={12} className='box-padding-top'>
+
+                          <div className='box-text'>
+                            Login as: TestUserEmail@gmail.com
+                          </div>
+                          <div className='box-text box-padding-bottom'>
+                            Password: secret
+                          </div>
+
                           <a className='box-text' href='https://github.com/redferret/FactorioCalculator'>
                             <img src={Router.route(IMAGE_ASSET, {fileName: 'GitHub-Mark-Light-32px.png'})} />
                             Project Repository
                           </a>
+
                         </Col>
                       </Row>
                     </div>

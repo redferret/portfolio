@@ -44698,6 +44698,16 @@ var Main = function (_React$Component) {
                         __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["a" /* Col */],
                         { sm: 12, className: 'box-padding-top' },
                         __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(
+                          'div',
+                          { className: 'box-text' },
+                          'Login as: TestUserEmail@gmail.com'
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(
+                          'div',
+                          { className: 'box-text box-padding-bottom' },
+                          'Password: secret'
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(
                           'a',
                           { className: 'box-text', href: 'https://github.com/redferret/FactorioCalculator' },
                           __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement('img', { src: __WEBPACK_IMPORTED_MODULE_10__router_js__["a" /* default */].route(__WEBPACK_IMPORTED_MODULE_12__constants_js__["a" /* IMAGE_ASSET */], { fileName: 'GitHub-Mark-Light-32px.png' }) }),
