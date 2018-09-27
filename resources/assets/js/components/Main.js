@@ -67,7 +67,7 @@ export default class Main extends React.Component {
                     <div>
                       <Row>
                         <Col sm={12}>
-                          <a href='#' className='box-padding-left-md box-padding-top'>
+                          <a href='http://richard-desilvey.info/ProductionCalculator' className='box-padding-left-md box-padding-top'>
                             <h4 className='box-text'>
                               Factorio Production Calculator
                             </h4>
