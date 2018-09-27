@@ -77,7 +77,7 @@ export default class Main extends React.Component {
                       </Row>
                       <Row>
                         <Col sm={12} className='box-padding-top'>
-                          <a className='box-text box-padding-left-md' href='https://github.com/redferret/FactorioCalculator'>
+                          <a className='box-text' href='https://github.com/redferret/FactorioCalculator'>
                             <img src={Router.route(IMAGE_ASSET, {fileName: 'GitHub-Mark-Light-32px.png'})} />
                             Project Repository
                           </a>

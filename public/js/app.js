@@ -44699,7 +44699,7 @@ var Main = function (_React$Component) {
                         { sm: 12, className: 'box-padding-top' },
                         __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(
                           'a',
-                          { className: 'box-text box-padding-left-md', href: 'https://github.com/redferret/FactorioCalculator' },
+                          { className: 'box-text', href: 'https://github.com/redferret/FactorioCalculator' },
                           __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement('img', { src: __WEBPACK_IMPORTED_MODULE_10__router_js__["a" /* default */].route(__WEBPACK_IMPORTED_MODULE_12__constants_js__["a" /* IMAGE_ASSET */], { fileName: 'GitHub-Mark-Light-32px.png' }) }),
                           'Project Repository'
                         )
