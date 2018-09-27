@@ -24,6 +24,11 @@ body {
   background-color: #4166a0;
 }
 
+.project-box {
+  padding-left: 10px;
+  background-color: #1a4489;
+}
+
 .box-padding-top {
   padding-top: 25px;
 }

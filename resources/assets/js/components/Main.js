@@ -64,15 +64,32 @@ export default class Main extends React.Component {
             <BoxContainer boxContent={
               <BoxContent title='Projects' imageFile='iconmonstr-pencil-thin-64.png' contentCallback={() => {
                   return (
-                    <div>
+                    <div className='project-box box-padding-bottom'>
                       <Row>
-                        <Col sm={12}>
-                          <a href='http://richard-desilvey.info/ProductionCalculator' className='box-padding-left-md box-padding-top'>
+                        <Col sm={5}>
+                          <a href='http://richard-desilvey.info/ProductionCalculator' className='box-padding-left-md '>
                             <h4 className='box-text'>
                               Factorio Production Calculator
                             </h4>
                             <img src={Router.route(IMAGE_ASSET, {fileName: 'fact_thumb.png'})}/>
                           </a>
+                        </Col>
+                        <Col sm={7}>
+                          <div className='box-text box-padding-top box-padding-right-sm'>
+                            <p>
+                              {"There's an amazing game called Factorio, if you haven't played it yet and you're an engineer then order it on steam and sink dozens of hours into it. "+
+                               "This web app is aimed to help players, like me, setup organized factories and production lines. The game can get really complex if you're building mega "+
+                               "factories and understanding your production needs can become a nightmare with this game."}
+                            </p>
+                            <p>
+                              {"The web app allows a user to setup and define their factories which contain many production lines. " +
+                              "Each production line produces a product and may be consumed by "+
+                              "some other production line. This helps a player setup modular factories with a good understanding of their production needs"}
+                            </p>
+                            <p>
+                              {"This web app is developed using the LAMP stack and utilizes ReactJS with the Flux design pattern to give the user a single paged web app experience."}
+                            </p>
+                          </div>
                         </Col>
                       </Row>
                       <Row>
