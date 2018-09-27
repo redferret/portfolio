@@ -29,7 +29,6 @@ export default class Main extends React.Component {
     let bulletPoints = MainStore.getAboutMeBulletPoints();
     return (
       <div>
-        <Navbar />
         <Row id='header'>
           <Col sm={12}>
             <div className='box-container'>
@@ -63,10 +62,30 @@ export default class Main extends React.Component {
               <BoxContent title='Quick Bio' imageFile='iconmonstr-user-male-thin-240.png' contentCallback={() => <Bio />} />
             }/>
             <BoxContainer boxContent={
-              <BoxContent title='Work History' imageFile='iconmonstr-gear-thin-64.png' contentCallback={() => {}} />
-            }/>
-            <BoxContainer boxContent={
-              <BoxContent title='Projects' imageFile='iconmonstr-pencil-thin-64.png' contentCallback={() => {}} />
+              <BoxContent title='Projects' imageFile='iconmonstr-pencil-thin-64.png' contentCallback={() => {
+                  return (
+                    <div>
+                      <Row>
+                        <Col sm={12}>
+                          <a href='#' className='box-padding-left-md box-padding-top'>
+                            <h4 className='box-text'>
+                              Factorio Production Calculator
+                            </h4>
+                            <img src={Router.route(IMAGE_ASSET, {fileName: 'fact_thumb.png'})}/>
+                          </a>
+                        </Col>
+                      </Row>
+                      <Row>
+                        <Col sm={12} className='box-padding-top'>
+                          <a className='box-text box-padding-left-md' href='https://github.com/redferret/FactorioCalculator'>
+                            <img src={Router.route(IMAGE_ASSET, {fileName: 'GitHub-Mark-Light-32px.png'})} />
+                            Project Repository
+                          </a>
+                        </Col>
+                      </Row>
+                    </div>
+                  )
+                }} />
             }/>
           </Col>
         </Row>

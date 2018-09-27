@@ -11,23 +11,27 @@ export default class Navbar extends React.Component {
           <span className='navbar-toggler-icon'></span>
           <div className='dropdown-menu bg-dark' aria-labelledby='navContent'>
             <div className='dropdown-item navbar-text-custom small-padding'>
-              <div className='d-flex flex-row'>
-                <div className='p-2'>
-                  <img src={Router.route(IMAGE_ASSET, {fileName: 'GitHub-Mark-Light-32px.png'})} />
+              <a href='https://github.com/redferret' className='dropdown-item navbar-text-custom small-padding'>
+                <div className='d-flex flex-row'>
+                  <div className='p-2'>
+                    <img src={Router.route(IMAGE_ASSET, {fileName: 'GitHub-Mark-Light-32px.png'})} />
+                  </div>
+                  <div className='p-2'>
+                    Projects
+                  </div>
                 </div>
-                <div className='p-2'>
-                  <a className='dropdown-item navbar-text-custom small-padding' href='#'>Projects</a>
+              </a>
+              <a className='dropdown-item navbar-text-custom small-padding' href='#'>
+                <div className='d-flex flex-row'>
+                  <div className='p-2'>
+                    <img width={32} height={32}
+                      src={Router.route(IMAGE_ASSET, {fileName: 'iconmonstr-speech-bubble-comment-thin-240.png'})} />
+                  </div>
+                  <div className='p-2'>
+                    Blog (Comming Soon)
+                  </div>
                 </div>
-              </div>
-              <div className='d-flex flex-row'>
-                <div className='p-2'>
-                  <img width={32} height={32}
-                    src={Router.route(IMAGE_ASSET, {fileName: 'iconmonstr-speech-bubble-comment-thin-240.png'})} />
-                </div>
-                <div className='p-2'>
-                  <a className='dropdown-item navbar-text-custom small-padding' href='#'>Blog</a>
-                </div>
-              </div>
+              </a>
             </div>
           </div>
         </button>
