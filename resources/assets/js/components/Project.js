@@ -35,7 +35,9 @@ export default class Project extends React.Component {
               {this.props.projectFooter()}
               <a className='box-text' href={this.props.projectRepositoryLink}>
                 <img src={Router.route(IMAGE_ASSET, {fileName: 'GitHub-Mark-Light-32px.png'})} />
-                Project Repository
+                <span className='box-padding-left-sm'>
+                  Project Repository
+                </span>
               </a>
             </Col>
           </Row>

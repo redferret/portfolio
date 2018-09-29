@@ -22259,7 +22259,7 @@ ToggleButton.propTypes = propTypes;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(141);
-module.exports = __webpack_require__(336);
+module.exports = __webpack_require__(338);
 
 
 /***/ }),
@@ -44571,8 +44571,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__BulletPoint_js__ = __webpack_require__(330);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__GoldsmithingBio_js__ = __webpack_require__(331);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__stores_MainStore_js__ = __webpack_require__(332);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Navbar_js__ = __webpack_require__(334);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Project_js__ = __webpack_require__(335);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Navbar_js__ = __webpack_require__(336);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Project_js__ = __webpack_require__(337);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react_dom__ = __webpack_require__(11);
@@ -75816,8 +75816,10 @@ var GoldsmithingBio = function (_React$Component) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_partials_FactorioProject_js__ = __webpack_require__(334);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_partials_RowdyProject_js__ = __webpack_require__(335);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react__);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -75827,6 +75829,8 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var EventEmitter = __webpack_require__(333).EventEmitter;
+
+
 
 
 
@@ -75855,77 +75859,7 @@ var MainStore = function (_EventEmitter) {
       content: 'Studying Geology, Biology, Hiking/Climbing, Goldsmithing'
     }];
 
-    _this._projects = [{
-      projectLink: 'http://richard-desilvey.info/ProductionCalculator/',
-      projectRepositoryLink: 'https://github.com/redferret/FactorioCalculator',
-      projectTitle: 'Factorio Production Calculator',
-      projectImageFile: 'fact_thumb.png',
-      projectDescription: function projectDescription() {
-        return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          null,
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'p',
-            null,
-            "There's an amazing game called Factorio, if you haven't played it yet and you're an engineer then order it on steam and sink dozens of hours into it. " + "This web app is aimed to help players, like me, setup organized factories and production lines. The game can get really complex if you're building mega " + "factories and understanding your production needs can become a nightmare with this game."
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'p',
-            null,
-            "The web app allows a user to setup and define their factories which contain many production lines. " + "Each production line produces a product and may be consumed by " + "some other production line. This helps a player setup modular factories with a good understanding of their production needs"
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'p',
-            null,
-            "This web app is developed using the LAMP stack and utilizes ReactJS with the Flux design pattern to give the user a single paged web app experience."
-          )
-        );
-      },
-      projectFooter: function projectFooter() {
-        return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          null,
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            { className: 'box-text' },
-            'Login as: TestUserEmail@gmail.com'
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            { className: 'box-text' },
-            'Password: secret'
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            { className: 'box-text box-padding-bottom' },
-            'Please be respectful when using this test account.'
-          )
-        );
-      }
-
-    }, {
-      projectLink: 'https://github.com/redferret/rowdy',
-      projectRepositoryLink: 'https://github.com/redferret/rowdy',
-      projectTitle: 'Rowdy',
-      projectImageFile: 'rowdy_thumb.png',
-      projectDescription: function projectDescription() {
-        return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          null,
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'p',
-            null,
-            "Rowdy is a general purpose scripting language written in Java. " + "I wanted to share this because it's a skill worth noting. A developer should be able to demonstrate their " + "ability to develop useful tools. Developing Rowdy is something I really enjoyed building and perhaps one day Rowdy will be useful for wrapping low level " + "or even high level Java libraries that can be quickly executed using Rowdy code. The syntax is a mixture of JavaScript and PHP."
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'p',
-            null,
-            "Please take note of the project's testing and Wiki to learn more."
-          )
-        );
-      },
-      projectFooter: function projectFooter() {}
-    }];
+    _this._projects = [__WEBPACK_IMPORTED_MODULE_0__components_partials_FactorioProject_js__["a" /* default */].partial(), __WEBPACK_IMPORTED_MODULE_1__components_partials_RowdyProject_js__["a" /* default */].partial()];
     return _this;
   }
 
@@ -76261,6 +76195,136 @@ function isUndefined(arg) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+
+
+var FactorioProject = function () {
+  function FactorioProject() {
+    _classCallCheck(this, FactorioProject);
+  }
+
+  _createClass(FactorioProject, [{
+    key: 'partial',
+    value: function partial() {
+      return {
+        projectLink: 'http://richard-desilvey.info/ProductionCalculator/',
+        projectRepositoryLink: 'https://github.com/redferret/FactorioCalculator',
+        projectTitle: 'Factorio Production Calculator',
+        projectImageFile: 'fact_thumb.png',
+        projectDescription: function projectDescription() {
+          return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            null,
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              null,
+              "There's an amazing game called Factorio, if you haven't played it yet and you're an engineer then order it on steam and sink dozens of hours into it. " + "This web app is aimed to help players, like me, setup organized factories and production lines. The game can get really complex if you're building mega " + "factories and understanding your production needs can become a nightmare with this game."
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              null,
+              "The web app allows a user to setup and define their factories which contain many production lines. " + "Each production line produces a product and may be consumed by " + "some other production line. This helps a player setup modular factories with a good understanding of their production needs"
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              null,
+              "This web app is developed using the LAMP stack and utilizes ReactJS with the Flux design pattern to give the user a single paged web app experience."
+            )
+          );
+        },
+        projectFooter: function projectFooter() {
+          return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            null,
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'box-text' },
+              'Login as: TestUserEmail@gmail.com'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'box-text' },
+              'Password: secret'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'box-text box-padding-bottom' },
+              'Please be respectful when using this test account.'
+            )
+          );
+        }
+
+      };
+    }
+  }]);
+
+  return FactorioProject;
+}();
+
+/* harmony default export */ __webpack_exports__["a"] = (new FactorioProject());
+
+/***/ }),
+/* 335 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+
+
+var RowdyProject = function () {
+  function RowdyProject() {
+    _classCallCheck(this, RowdyProject);
+  }
+
+  _createClass(RowdyProject, [{
+    key: 'partial',
+    value: function partial() {
+      return {
+        projectLink: 'https://github.com/redferret/rowdy',
+        projectRepositoryLink: 'https://github.com/redferret/rowdy',
+        projectTitle: 'Rowdy',
+        projectImageFile: 'rowdy_thumb.png',
+        projectDescription: function projectDescription() {
+          return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            null,
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              null,
+              "Rowdy is a general purpose scripting language written in Java. " + "I wanted to share this because it's a skill worth noting. A developer should be able to demonstrate their " + "ability to develop useful tools. Developing Rowdy is something I really enjoyed building and perhaps one day Rowdy will be useful for wrapping low level " + "or even high level Java libraries that can be quickly executed using Rowdy code. The syntax is a mixture of JavaScript and PHP."
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              null,
+              "Please take note of the project's testing and Wiki to learn more."
+            )
+          );
+        },
+        projectFooter: function projectFooter() {}
+      };
+    }
+  }]);
+
+  return RowdyProject;
+}();
+
+/* harmony default export */ __webpack_exports__["a"] = (new RowdyProject());
+
+/***/ }),
+/* 336 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__router_js__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constants_js__ = __webpack_require__(33);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -76351,7 +76415,7 @@ var Navbar = function (_React$Component) {
 /* unused harmony default export */ var _unused_webpack_default_export = (Navbar);
 
 /***/ }),
-/* 335 */
+/* 337 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -76431,7 +76495,11 @@ var Project = function (_React$Component) {
                 'a',
                 { className: 'box-text', href: this.props.projectRepositoryLink },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: __WEBPACK_IMPORTED_MODULE_1__router_js__["a" /* default */].route(__WEBPACK_IMPORTED_MODULE_2__constants_js__["a" /* IMAGE_ASSET */], { fileName: 'GitHub-Mark-Light-32px.png' }) }),
-                'Project Repository'
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'span',
+                  { className: 'box-padding-left-sm' },
+                  'Project Repository'
+                )
               )
             )
           )
@@ -76446,7 +76514,7 @@ var Project = function (_React$Component) {
 /* harmony default export */ __webpack_exports__["a"] = (Project);
 
 /***/ }),
-/* 336 */
+/* 338 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin

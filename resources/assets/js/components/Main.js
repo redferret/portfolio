@@ -51,9 +51,10 @@ export default class Main extends React.Component {
                       return (
                         bulletPoints.map((bullet, index) =>
                           <BulletPoint key={bullet.subject+index} className='box-text box-padding-left-md'
-                            subject={bullet.subject} content={bullet.content} />
+                            subject={bullet.subject} content={bullet.content} />)
                       )
-                    )}} />
+                    }
+                  }/>
                 </Col>
                 <Col sm={5}>
                   <img src={Router.route(IMAGE_ASSET, {fileName: 'hiking_image.jpg'})} width='90%' height='90%' />
