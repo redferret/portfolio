@@ -36,6 +36,7 @@ body {
 }
 
 .box {
+  border-radius: 3px;
   border-left: 8px solid #1a4489;
   -webkit-box-shadow: 2px 3px #223656;
           box-shadow: 2px 3px #223656;
