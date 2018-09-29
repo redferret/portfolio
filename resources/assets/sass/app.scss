@@ -18,15 +18,27 @@ body {
   padding: 25px;
 }
 
+.project-box-divider {
+  padding-top: 10px;
+}
+
+.project-box {
+  border-radius: 3px;
+  border-left: 8px solid rgb(54, 75, 109);
+  padding-left: 10px;
+  background-color: rgb(72, 100, 145);
+  box-shadow: 2px 3px black;
+}
+
+.project-description-padding {
+  padding-right: 10px;
+  padding-top: 55px;
+}
+
 .box {
   border-left: 8px solid rgb(26, 68, 137);
   box-shadow: 2px 3px rgb(34, 54, 86);
   background-color: rgb(65, 102, 160);
-}
-
-.project-box {
-  padding-left: 10px;
-  background-color: rgb(26, 68, 137);
 }
 
 .box-padding-top {

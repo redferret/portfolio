@@ -17,16 +17,29 @@ body {
   padding: 25px;
 }
 
+.project-box-divider {
+  padding-top: 10px;
+}
+
+.project-box {
+  border-radius: 3px;
+  border-left: 8px solid #364b6d;
+  padding-left: 10px;
+  background-color: #486491;
+  -webkit-box-shadow: 2px 3px black;
+          box-shadow: 2px 3px black;
+}
+
+.project-description-padding {
+  padding-right: 10px;
+  padding-top: 55px;
+}
+
 .box {
   border-left: 8px solid #1a4489;
   -webkit-box-shadow: 2px 3px #223656;
           box-shadow: 2px 3px #223656;
   background-color: #4166a0;
-}
-
-.project-box {
-  padding-left: 10px;
-  background-color: #1a4489;
 }
 
 .box-padding-top {
