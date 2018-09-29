@@ -24,7 +24,7 @@ class MainStore extends EventEmitter {
 
     this._projects = [{
       projectLink: 'http://richard-desilvey.info/ProductionCalculator/',
-      projectRepositoryLink: 'https://github.com/redferret/rowdy',
+      projectRepositoryLink: 'https://github.com/redferret/FactorioCalculator',
       projectTitle: 'Factorio Production Calculator',
       projectImageFile: 'fact_thumb.png',
       projectDescription: () => {
