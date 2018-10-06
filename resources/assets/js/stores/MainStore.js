@@ -1,6 +1,7 @@
 var EventEmitter = require('events').EventEmitter;
 
 import FactorioProject from '../components/partials/FactorioProject.js';
+import LaravelReactTemplate from '../components/partials/LaravelReactTemplate.js';
 import RowdyProject from '../components/partials/RowdyProject.js';
 import React from 'react';
 
@@ -26,6 +27,7 @@ class MainStore extends EventEmitter {
 
     this._projects = [
       FactorioProject.partial(),
+      LaravelReactTemplate.partial(),
       RowdyProject.partial()
     ];
   }

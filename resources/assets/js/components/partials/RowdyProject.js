@@ -22,7 +22,7 @@ class RowdyProject {
           </div>
         )
       },
-      projectFooter: () => {}
+      projectFooter: () => null
     };
   }
 }
