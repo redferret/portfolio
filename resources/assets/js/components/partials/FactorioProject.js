@@ -12,9 +12,7 @@ class FactorioProject {
         return (
           <div>
             <p>
-              {"There's an amazing game called Factorio, if you haven't played it yet and you're an engineer then order it on steam and sink dozens of hours into it. "+
-               "This web app is aimed to help players, like me, setup organized factories and production lines. The game can get really complex if you're building mega "+
-               "factories and understanding your production needs can become a nightmare with this game."}
+              {"This app is still under construction, there are a few more buttons that need to be wired but it is working, check it out!"}
             </p>
             <p>
               {"The web app allows a user to setup and define their factories which contain many production lines. " +
