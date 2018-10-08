@@ -22259,7 +22259,7 @@ ToggleButton.propTypes = propTypes;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(141);
-module.exports = __webpack_require__(338);
+module.exports = __webpack_require__(339);
 
 
 /***/ }),
@@ -44571,8 +44571,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__BulletPoint_js__ = __webpack_require__(330);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__GoldsmithingBio_js__ = __webpack_require__(331);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__stores_MainStore_js__ = __webpack_require__(332);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Navbar_js__ = __webpack_require__(336);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Project_js__ = __webpack_require__(337);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Navbar_js__ = __webpack_require__(337);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Project_js__ = __webpack_require__(338);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react_dom__ = __webpack_require__(11);
@@ -75817,8 +75817,8 @@ var GoldsmithingBio = function (_React$Component) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_partials_FactorioProject_js__ = __webpack_require__(334);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_partials_LaravelReactTemplate_js__ = __webpack_require__(343);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_partials_RowdyProject_js__ = __webpack_require__(335);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_partials_LaravelReactTemplate_js__ = __webpack_require__(335);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_partials_RowdyProject_js__ = __webpack_require__(336);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react__);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -76223,7 +76223,7 @@ var FactorioProject = function () {
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'p',
               null,
-              "There's an amazing game called Factorio, if you haven't played it yet and you're an engineer then order it on steam and sink dozens of hours into it. " + "This web app is aimed to help players, like me, setup organized factories and production lines. The game can get really complex if you're building mega " + "factories and understanding your production needs can become a nightmare with this game."
+              "This app is still under construction, there are a few more buttons that need to be wired but it is working, check it out!"
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'p',
@@ -76281,6 +76281,60 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
 
+var LaravelReactTemplate = function () {
+  function LaravelReactTemplate() {
+    _classCallCheck(this, LaravelReactTemplate);
+  }
+
+  _createClass(LaravelReactTemplate, [{
+    key: 'partial',
+    value: function partial() {
+      return {
+        projectLink: 'http://richard-desilvey.info/Laravel-React-Example',
+        projectRepositoryLink: 'https://github.com/redferret/Laravel-React-Template',
+        projectTitle: 'Laravel-React Template',
+        projectImageFile: 'L_R_temp_thumb.png',
+        projectDescription: function projectDescription() {
+          return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            null,
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              null,
+              "Even though Blade is a great template engine, it is difficult to use in " + "single paged web applications and can break that UX. This " + "template uses the bare minimum of Blade to serve what is needed to the front end. " + "ReactJS takes care of everything else and even allows for multiple modules written in ReactJS."
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              null,
+              "This is my take on what a single paged web application should look like with Laravel. There are probably more " + "things that can be added to it to make it more powerful but it's a good start."
+            )
+          );
+        },
+        projectFooter: function projectFooter() {
+          return null;
+        }
+      };
+    }
+  }]);
+
+  return LaravelReactTemplate;
+}();
+
+/* harmony default export */ __webpack_exports__["a"] = (new LaravelReactTemplate());
+
+/***/ }),
+/* 336 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+
+
 var RowdyProject = function () {
   function RowdyProject() {
     _classCallCheck(this, RowdyProject);
@@ -76323,7 +76377,7 @@ var RowdyProject = function () {
 /* harmony default export */ __webpack_exports__["a"] = (new RowdyProject());
 
 /***/ }),
-/* 336 */
+/* 337 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -76419,7 +76473,7 @@ var Navbar = function (_React$Component) {
 /* unused harmony default export */ var _unused_webpack_default_export = (Navbar);
 
 /***/ }),
-/* 337 */
+/* 338 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -76518,68 +76572,10 @@ var Project = function (_React$Component) {
 /* harmony default export */ __webpack_exports__["a"] = (Project);
 
 /***/ }),
-/* 338 */
+/* 339 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 339 */,
-/* 340 */,
-/* 341 */,
-/* 342 */,
-/* 343 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-
-
-var LaravelReactTemplate = function () {
-  function LaravelReactTemplate() {
-    _classCallCheck(this, LaravelReactTemplate);
-  }
-
-  _createClass(LaravelReactTemplate, [{
-    key: 'partial',
-    value: function partial() {
-      return {
-        projectLink: 'http://richard-desilvey.info/Laravel-React-Example',
-        projectRepositoryLink: 'https://github.com/redferret/Laravel-React-Template',
-        projectTitle: 'Laravel-React Template',
-        projectImageFile: 'L_R_temp_thumb.png',
-        projectDescription: function projectDescription() {
-          return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            null,
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'p',
-              null,
-              "Even though Blade is a great template engine, it is difficult to use in " + "single paged web applications and can break that UX. This " + "template uses the bare minimum of Blade to serve what is needed to the front end. " + "ReactJS takes care of everything else and even allows for multiple modules written in ReactJS."
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'p',
-              null,
-              "This is my take on what a single paged web application should look like with Laravel. There are probably more " + "things that can be added to it to make it more powerful but it's a good start."
-            )
-          );
-        },
-        projectFooter: function projectFooter() {
-          return null;
-        }
-      };
-    }
-  }]);
-
-  return LaravelReactTemplate;
-}();
-
-/* harmony default export */ __webpack_exports__["a"] = (new LaravelReactTemplate());
 
 /***/ })
 /******/ ]);
