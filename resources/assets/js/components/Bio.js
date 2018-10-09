@@ -12,7 +12,7 @@ export default class Bio extends React.Component {
           " Visual Basic. From that point on I was hooked on programming. "}
         </p>
         <p className='box-text box-padding-left-md'>
-          {"I took a carrer in Goldsmithing after high school, due to my interest in metal working," +
+          {"I took a career in Goldsmithing after high school, due to my interest in metal working," +
           " before returning to College to obtain my degree in Computer Science. " +
           " I took a keen interest in Simulations to watch things evolve, being Biological or Geological. I also " +
           " love single paged Web Applications. I feel they are the future software for countless " +

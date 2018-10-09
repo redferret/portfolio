@@ -45010,7 +45010,7 @@ var Bio = function (_React$Component) {
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'p',
           { className: 'box-text box-padding-left-md' },
-          "I took a carrer in Goldsmithing after high school, due to my interest in metal working," + " before returning to College to obtain my degree in Computer Science. " + " I took a keen interest in Simulations to watch things evolve, being Biological or Geological. I also " + " love single paged Web Applications. I feel they are the future software for countless " + " businesses. "
+          "I took a career in Goldsmithing after high school, due to my interest in metal working," + " before returning to College to obtain my degree in Computer Science. " + " I took a keen interest in Simulations to watch things evolve, being Biological or Geological. I also " + " love single paged Web Applications. I feel they are the future software for countless " + " businesses. "
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'p',
@@ -75849,10 +75849,10 @@ var MainStore = function (_EventEmitter) {
       content: 'Richard Evans DeSilvey'
     }, {
       subject: 'Education',
-      content: 'Metropolitain State University of Denver'
+      content: 'metropolitan State University of Denver'
     }, {
       subject: 'Degree',
-      content: 'Bachlor of Science in Computer Science'
+      content: 'Bachelor\'s of Science in Computer Science'
     }, {
       subject: 'Focus',
       content: 'Software Development / Web Application Development'

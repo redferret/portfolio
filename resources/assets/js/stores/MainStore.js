@@ -13,10 +13,10 @@ class MainStore extends EventEmitter {
       content: 'Richard Evans DeSilvey'
     }, {
       subject: 'Education',
-      content: 'Metropolitain State University of Denver'
+      content: 'metropolitan State University of Denver'
     }, {
       subject: 'Degree',
-      content: 'Bachlor of Science in Computer Science'
+      content: 'Bachelor\'s of Science in Computer Science'
     }, {
       subject: 'Focus',
       content: 'Software Development / Web Application Development'
