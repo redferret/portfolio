@@ -22259,7 +22259,7 @@ ToggleButton.propTypes = propTypes;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(141);
-module.exports = __webpack_require__(338);
+module.exports = __webpack_require__(339);
 
 
 /***/ }),
@@ -44570,8 +44570,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__BoxContent_js__ = __webpack_require__(175);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__BulletPoint_js__ = __webpack_require__(330);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__stores_MainStore_js__ = __webpack_require__(331);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Navbar_js__ = __webpack_require__(336);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Project_js__ = __webpack_require__(337);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Navbar_js__ = __webpack_require__(337);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Project_js__ = __webpack_require__(338);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react_dom__ = __webpack_require__(11);
@@ -75768,6 +75768,7 @@ var BulletPoint = function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_partials_RowdyProject_js__ = __webpack_require__(335);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_partials_StoryBoards_js__ = __webpack_require__(336);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -75777,6 +75778,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var EventEmitter = __webpack_require__(332).EventEmitter;
+
 
 
 
@@ -75808,7 +75810,7 @@ var MainStore = function (_EventEmitter) {
       content: 'Studying Geology, Biology, Hiking/Climbing, Goldsmithing'
     }];
 
-    _this._projects = [__WEBPACK_IMPORTED_MODULE_0__components_partials_FactorioProject_js__["a" /* default */].partial(), __WEBPACK_IMPORTED_MODULE_1__components_partials_LaravelReactTemplate_js__["a" /* default */].partial(), __WEBPACK_IMPORTED_MODULE_2__components_partials_RowdyProject_js__["a" /* default */].partial()];
+    _this._projects = [__WEBPACK_IMPORTED_MODULE_0__components_partials_FactorioProject_js__["a" /* default */].partial(), __WEBPACK_IMPORTED_MODULE_4__components_partials_StoryBoards_js__["a" /* default */].partial(), __WEBPACK_IMPORTED_MODULE_1__components_partials_LaravelReactTemplate_js__["a" /* default */].partial(), __WEBPACK_IMPORTED_MODULE_2__components_partials_RowdyProject_js__["a" /* default */].partial()];
     return _this;
   }
 
@@ -76330,6 +76332,55 @@ var RowdyProject = function () {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+
+
+var StoryBoards = function () {
+  function StoryBoards() {
+    _classCallCheck(this, StoryBoards);
+  }
+
+  _createClass(StoryBoards, [{
+    key: 'partial',
+    value: function partial() {
+      return {
+        projectLink: 'http://richard-desilvey.info/StoryBoards',
+        projectRepositoryLink: 'https://github.com/redferret/StoryBoards',
+        projectTitle: 'Story Boards',
+        projectImageFile: 'story_boards.png',
+        projectDescription: function projectDescription() {
+          return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            null,
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              null,
+              "This application allows for a user to create stories and share them with other authors. " + "It was built using my Laravel-React-Template."
+            )
+          );
+        },
+        projectFooter: function projectFooter() {
+          return null;
+        }
+      };
+    }
+  }]);
+
+  return StoryBoards;
+}();
+
+/* harmony default export */ __webpack_exports__["a"] = (new StoryBoards());
+
+/***/ }),
+/* 337 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__router_js__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constants_js__ = __webpack_require__(33);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -76420,7 +76471,7 @@ var Navbar = function (_React$Component) {
 /* unused harmony default export */ var _unused_webpack_default_export = (Navbar);
 
 /***/ }),
-/* 337 */
+/* 338 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -76519,7 +76570,7 @@ var Project = function (_React$Component) {
 /* harmony default export */ __webpack_exports__["a"] = (Project);
 
 /***/ }),
-/* 338 */
+/* 339 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
