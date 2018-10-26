@@ -3,7 +3,6 @@ import Bio from './Bio.js';
 import BoxContainer from './BoxContainer.js';
 import BoxContent from './BoxContent.js';
 import BulletPoint from './BulletPoint.js';
-import GoldsmithingBio from './GoldsmithingBio.js';
 import MainStore from '../stores/MainStore.js';
 import Navbar from './Navbar.js';
 import Project from './Project.js';
@@ -57,7 +56,7 @@ export default class Main extends React.Component {
                   }/>
                 </Col>
                 <Col sm={5}>
-                  <img src={Router.route(IMAGE_ASSET, {fileName: 'hiking_image.jpg'})} width='90%' height='90%' />
+                  <img src={Router.route(IMAGE_ASSET, {fileName: 'hiking_image.jpg'})} width='512' height='256' />
                 </Col>
               </Row>
             }/>

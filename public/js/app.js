@@ -22259,7 +22259,7 @@ ToggleButton.propTypes = propTypes;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(141);
-module.exports = __webpack_require__(339);
+module.exports = __webpack_require__(338);
 
 
 /***/ }),
@@ -44569,17 +44569,16 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__BoxContainer_js__ = __webpack_require__(174);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__BoxContent_js__ = __webpack_require__(175);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__BulletPoint_js__ = __webpack_require__(330);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__GoldsmithingBio_js__ = __webpack_require__(331);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__stores_MainStore_js__ = __webpack_require__(332);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Navbar_js__ = __webpack_require__(337);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Project_js__ = __webpack_require__(338);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react_dom__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_react_dom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__router_js__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_react_bootstrap__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__constants_js__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__stores_MainStore_js__ = __webpack_require__(331);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Navbar_js__ = __webpack_require__(336);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Project_js__ = __webpack_require__(337);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react_dom__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_react_dom__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__router_js__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__constants_js__ = __webpack_require__(33);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -44589,7 +44588,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
 
 
 
@@ -44619,24 +44617,24 @@ var Main = function (_React$Component) {
   _createClass(Main, [{
     key: 'render',
     value: function render() {
-      var bulletPoints = __WEBPACK_IMPORTED_MODULE_6__stores_MainStore_js__["a" /* default */].getAboutMeBulletPoints();
-      var projects = __WEBPACK_IMPORTED_MODULE_6__stores_MainStore_js__["a" /* default */].getProjects();
-      return __WEBPACK_IMPORTED_MODULE_9_react___default.a.createElement(
+      var bulletPoints = __WEBPACK_IMPORTED_MODULE_5__stores_MainStore_js__["a" /* default */].getAboutMeBulletPoints();
+      var projects = __WEBPACK_IMPORTED_MODULE_5__stores_MainStore_js__["a" /* default */].getProjects();
+      return __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(
         'div',
         null,
-        __WEBPACK_IMPORTED_MODULE_9_react___default.a.createElement(
-          __WEBPACK_IMPORTED_MODULE_12_react_bootstrap__["c" /* Row */],
+        __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(
+          __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["c" /* Row */],
           { id: 'header' },
-          __WEBPACK_IMPORTED_MODULE_9_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_12_react_bootstrap__["a" /* Col */],
+          __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["a" /* Col */],
             { sm: 12 },
-            __WEBPACK_IMPORTED_MODULE_9_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(
               'div',
               { className: 'box-container' },
-              __WEBPACK_IMPORTED_MODULE_9_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(
                 'div',
                 { className: 'box' },
-                __WEBPACK_IMPORTED_MODULE_9_react___default.a.createElement(
+                __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(
                   'h1',
                   { className: 'box-text box-center box-padding-top box-padding-bottom' },
                   'Welcome to my Portfolio!'
@@ -44645,38 +44643,38 @@ var Main = function (_React$Component) {
             )
           )
         ),
-        __WEBPACK_IMPORTED_MODULE_9_react___default.a.createElement(
-          __WEBPACK_IMPORTED_MODULE_12_react_bootstrap__["c" /* Row */],
+        __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(
+          __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["c" /* Row */],
           { id: 'page-content' },
-          __WEBPACK_IMPORTED_MODULE_9_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_12_react_bootstrap__["a" /* Col */],
+          __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["a" /* Col */],
             { sm: 12 },
-            __WEBPACK_IMPORTED_MODULE_9_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__BoxContainer_js__["a" /* default */], { boxContent: __WEBPACK_IMPORTED_MODULE_9_react___default.a.createElement(
-                __WEBPACK_IMPORTED_MODULE_12_react_bootstrap__["c" /* Row */],
+            __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__BoxContainer_js__["a" /* default */], { boxContent: __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(
+                __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["c" /* Row */],
                 null,
-                __WEBPACK_IMPORTED_MODULE_9_react___default.a.createElement(
-                  __WEBPACK_IMPORTED_MODULE_12_react_bootstrap__["a" /* Col */],
+                __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(
+                  __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["a" /* Col */],
                   { sm: 7 },
-                  __WEBPACK_IMPORTED_MODULE_9_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__BoxContent_js__["a" /* default */], { title: 'About Me', imageFile: 'iconmonstr-id-card-thin-64.png',
+                  __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__BoxContent_js__["a" /* default */], { title: 'About Me', imageFile: 'iconmonstr-id-card-thin-64.png',
                     contentCallback: function contentCallback() {
                       return bulletPoints.map(function (bullet, index) {
-                        return __WEBPACK_IMPORTED_MODULE_9_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__BulletPoint_js__["a" /* default */], { key: bullet.subject + index, className: 'box-text box-padding-left-md',
+                        return __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__BulletPoint_js__["a" /* default */], { key: bullet.subject + index, className: 'box-text box-padding-left-md',
                           subject: bullet.subject, content: bullet.content });
                       });
                     } })
                 ),
-                __WEBPACK_IMPORTED_MODULE_9_react___default.a.createElement(
-                  __WEBPACK_IMPORTED_MODULE_12_react_bootstrap__["a" /* Col */],
+                __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(
+                  __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["a" /* Col */],
                   { sm: 5 },
-                  __WEBPACK_IMPORTED_MODULE_9_react___default.a.createElement('img', { src: __WEBPACK_IMPORTED_MODULE_11__router_js__["a" /* default */].route(__WEBPACK_IMPORTED_MODULE_13__constants_js__["a" /* IMAGE_ASSET */], { fileName: 'hiking_image.jpg' }), width: '90%', height: '90%' })
+                  __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement('img', { src: __WEBPACK_IMPORTED_MODULE_10__router_js__["a" /* default */].route(__WEBPACK_IMPORTED_MODULE_12__constants_js__["a" /* IMAGE_ASSET */], { fileName: 'hiking_image.jpg' }), width: '512', height: '256' })
                 )
               ) }),
-            __WEBPACK_IMPORTED_MODULE_9_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__BoxContainer_js__["a" /* default */], { boxContent: __WEBPACK_IMPORTED_MODULE_9_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__BoxContent_js__["a" /* default */], { title: 'Quick Bio', imageFile: 'iconmonstr-user-male-thin-240.png', contentCallback: function contentCallback() {
-                  return __WEBPACK_IMPORTED_MODULE_9_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Bio_js__["a" /* default */], null);
+            __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__BoxContainer_js__["a" /* default */], { boxContent: __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__BoxContent_js__["a" /* default */], { title: 'Quick Bio', imageFile: 'iconmonstr-user-male-thin-240.png', contentCallback: function contentCallback() {
+                  return __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Bio_js__["a" /* default */], null);
                 } }) }),
-            __WEBPACK_IMPORTED_MODULE_9_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__BoxContainer_js__["a" /* default */], { boxContent: __WEBPACK_IMPORTED_MODULE_9_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__BoxContent_js__["a" /* default */], { title: 'Projects', imageFile: 'iconmonstr-pencil-thin-64.png', contentCallback: function contentCallback() {
+            __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__BoxContainer_js__["a" /* default */], { boxContent: __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__BoxContent_js__["a" /* default */], { title: 'Projects', imageFile: 'iconmonstr-pencil-thin-64.png', contentCallback: function contentCallback() {
                   return projects.map(function (project, index) {
-                    return __WEBPACK_IMPORTED_MODULE_9_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__Project_js__["a" /* default */], _extends({ key: 'project_' + index }, project));
+                    return __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__Project_js__["a" /* default */], _extends({ key: 'project_' + index }, project));
                   });
                 } }) })
           )
@@ -44686,7 +44684,7 @@ var Main = function (_React$Component) {
   }]);
 
   return Main;
-}(__WEBPACK_IMPORTED_MODULE_9_react___default.a.Component);
+}(__WEBPACK_IMPORTED_MODULE_8_react___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Main);
 
@@ -44694,7 +44692,7 @@ var Main = function (_React$Component) {
 var RootElement = document.getElementById('root');
 
 if (RootElement) {
-  __WEBPACK_IMPORTED_MODULE_10_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_9_react___default.a.createElement(Main, null), RootElement);
+  __WEBPACK_IMPORTED_MODULE_9_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(Main, null), RootElement);
 }
 
 /***/ }),
@@ -75765,60 +75763,9 @@ var BulletPoint = function (_React$Component) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-var GoldsmithingBio = function (_React$Component) {
-  _inherits(GoldsmithingBio, _React$Component);
-
-  function GoldsmithingBio() {
-    _classCallCheck(this, GoldsmithingBio);
-
-    return _possibleConstructorReturn(this, (GoldsmithingBio.__proto__ || Object.getPrototypeOf(GoldsmithingBio)).apply(this, arguments));
-  }
-
-  _createClass(GoldsmithingBio, [{
-    key: 'render',
-    value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'div',
-        null,
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          { className: 'box-text box-padding-left-md' },
-          "The company I worked for while being a Goldsmith was 14k9.com. A manufacturer specializing in " + "crafting beautiful pieces of work for people who have a passion for their dog and those who show their dog. " + "I felt the need to share this piece of my life because it was very impactful being able to create something " + "artistically and in an engineering perspective. As a manufacturer we had to push out many pieces of work in " + "a short time (about 2 weeks, same span of time of 1 sprint) depending on the piece that was being worked on. " + "I'm a very artistic individual and I admire the work my friends do as professional artists as well. I hope in time " + "that I can save up enough to make Goldsmithing a hobby of mine."
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          { className: 'box-text box-padding-left-md' },
-          "Click the image on the left to visit the website and checkout more of their designs and work."
-        )
-      );
-    }
-  }]);
-
-  return GoldsmithingBio;
-}(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Component);
-
-/* unused harmony default export */ var _unused_webpack_default_export = (GoldsmithingBio);
-
-/***/ }),
-/* 332 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_partials_FactorioProject_js__ = __webpack_require__(334);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_partials_LaravelReactTemplate_js__ = __webpack_require__(335);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_partials_RowdyProject_js__ = __webpack_require__(336);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_partials_FactorioProject_js__ = __webpack_require__(333);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_partials_LaravelReactTemplate_js__ = __webpack_require__(334);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_partials_RowdyProject_js__ = __webpack_require__(335);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react__);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -75829,7 +75776,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var EventEmitter = __webpack_require__(333).EventEmitter;
+var EventEmitter = __webpack_require__(332).EventEmitter;
 
 
 
@@ -75883,7 +75830,7 @@ var MainStore = function (_EventEmitter) {
 /* harmony default export */ __webpack_exports__["a"] = (new MainStore());
 
 /***/ }),
-/* 333 */
+/* 332 */
 /***/ (function(module, exports) {
 
 // Copyright Joyent, Inc. and other Node contributors.
@@ -76191,7 +76138,7 @@ function isUndefined(arg) {
 
 
 /***/ }),
-/* 334 */
+/* 333 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -76269,7 +76216,7 @@ var FactorioProject = function () {
 /* harmony default export */ __webpack_exports__["a"] = (new FactorioProject());
 
 /***/ }),
-/* 335 */
+/* 334 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -76323,7 +76270,7 @@ var LaravelReactTemplate = function () {
 /* harmony default export */ __webpack_exports__["a"] = (new LaravelReactTemplate());
 
 /***/ }),
-/* 336 */
+/* 335 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -76377,7 +76324,7 @@ var RowdyProject = function () {
 /* harmony default export */ __webpack_exports__["a"] = (new RowdyProject());
 
 /***/ }),
-/* 337 */
+/* 336 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -76473,7 +76420,7 @@ var Navbar = function (_React$Component) {
 /* unused harmony default export */ var _unused_webpack_default_export = (Navbar);
 
 /***/ }),
-/* 338 */
+/* 337 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -76572,7 +76519,7 @@ var Project = function (_React$Component) {
 /* harmony default export */ __webpack_exports__["a"] = (Project);
 
 /***/ }),
-/* 339 */
+/* 338 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin

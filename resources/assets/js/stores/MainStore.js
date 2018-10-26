@@ -4,6 +4,7 @@ import FactorioProject from '../components/partials/FactorioProject.js';
 import LaravelReactTemplate from '../components/partials/LaravelReactTemplate.js';
 import RowdyProject from '../components/partials/RowdyProject.js';
 import React from 'react';
+import StoryBoards from '../components/partials/StoryBoards.js';
 
 class MainStore extends EventEmitter {
   constructor() {
@@ -27,6 +28,7 @@ class MainStore extends EventEmitter {
 
     this._projects = [
       FactorioProject.partial(),
+      StoryBoards.partial(),
       LaravelReactTemplate.partial(),
       RowdyProject.partial()
     ];
