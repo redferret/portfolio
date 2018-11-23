@@ -4,7 +4,7 @@ import React from 'react';
 class LaravelReactTemplate {
   partial() {
     return {
-      projectLink: 'http://richard-desilvey.info/Laravel-React-Example',
+      projectLink: 'https://richard-desilvey.info/Laravel-React-Example',
       projectRepositoryLink: 'https://github.com/redferret/Laravel-React-Template',
       projectTitle: 'Laravel-React Template',
       projectImageFile: 'L_R_temp_thumb.png',
