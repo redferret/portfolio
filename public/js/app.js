@@ -76161,7 +76161,7 @@ var FactorioProject = function () {
     key: 'partial',
     value: function partial() {
       return {
-        projectLink: 'http://richard-desilvey.info/ProductionCalculator/',
+        projectLink: 'https://richard-desilvey.info/ProductionCalculator/',
         projectRepositoryLink: 'https://github.com/redferret/FactorioCalculator',
         projectTitle: 'Factorio Production Calculator',
         projectImageFile: 'fact_thumb.png',
@@ -76347,7 +76347,7 @@ var StoryBoards = function () {
     key: 'partial',
     value: function partial() {
       return {
-        projectLink: 'http://richard-desilvey.info/StoryBoards',
+        projectLink: 'https://richard-desilvey.info/StoryBoards',
         projectRepositoryLink: 'https://github.com/redferret/StoryBoards',
         projectTitle: 'Story Boards',
         projectImageFile: 'story_boards.png',
