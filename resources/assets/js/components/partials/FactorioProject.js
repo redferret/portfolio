@@ -4,7 +4,7 @@ import React from 'react';
 class FactorioProject {
   partial() {
     return {
-      projectLink: 'http://richard-desilvey.info/ProductionCalculator/',
+      projectLink: 'https://richard-desilvey.info/ProductionCalculator/',
       projectRepositoryLink: 'https://github.com/redferret/FactorioCalculator',
       projectTitle: 'Factorio Production Calculator',
       projectImageFile: 'fact_thumb.png',

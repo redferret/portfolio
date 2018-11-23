@@ -3,7 +3,7 @@ import React from 'react';
 class StoryBoards {
   partial() {
     return {
-      projectLink: 'http://richard-desilvey.info/StoryBoards',
+      projectLink: 'https://richard-desilvey.info/StoryBoards',
       projectRepositoryLink: 'https://github.com/redferret/StoryBoards',
       projectTitle: 'Story Boards',
       projectImageFile: 'story_boards.png',
