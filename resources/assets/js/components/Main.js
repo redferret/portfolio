@@ -56,7 +56,7 @@ export default class Main extends React.Component {
                   }/>
                 </Col>
                 <Col sm={5}>
-                  <img src={Router.route(IMAGE_ASSET, {fileName: 'hiking_image.jpg'})} width='512' height='256' />
+                  <img src={Router.route(IMAGE_ASSET, {fileName: 'hiking_image2.jpg'})} width='512' height='256' />
                 </Col>
               </Row>
             }/>

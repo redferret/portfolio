@@ -44666,7 +44666,7 @@ var Main = function (_React$Component) {
                 __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(
                   __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["a" /* Col */],
                   { sm: 5 },
-                  __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement('img', { src: __WEBPACK_IMPORTED_MODULE_10__router_js__["a" /* default */].route(__WEBPACK_IMPORTED_MODULE_12__constants_js__["a" /* IMAGE_ASSET */], { fileName: 'hiking_image.jpg' }), width: '512', height: '256' })
+                  __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement('img', { src: __WEBPACK_IMPORTED_MODULE_10__router_js__["a" /* default */].route(__WEBPACK_IMPORTED_MODULE_12__constants_js__["a" /* IMAGE_ASSET */], { fileName: 'hiking_image2.jpg' }), width: '512', height: '256' })
                 )
               ) }),
             __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__BoxContainer_js__["a" /* default */], { boxContent: __WEBPACK_IMPORTED_MODULE_8_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__BoxContent_js__["a" /* default */], { title: 'Quick Bio', imageFile: 'iconmonstr-user-male-thin-240.png', contentCallback: function contentCallback() {
