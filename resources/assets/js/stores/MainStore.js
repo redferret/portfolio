@@ -19,11 +19,8 @@ class MainStore extends EventEmitter {
       subject: 'Degree',
       content: 'Bachelor\'s of Science in Computer Science'
     }, {
-      subject: 'Focus',
-      content: 'Software Development / Web Application Development'
-    }, {
       subject: 'Hobbies',
-      content: 'Studying Geology, Biology, Hiking/Climbing, Goldsmithing'
+      content: 'Studying Geology, Biology, Hiking/Climbing, Charcoal Artist'
     }];
 
     this._projects = [

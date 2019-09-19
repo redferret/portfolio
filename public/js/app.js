@@ -45003,22 +45003,7 @@ var Bio = function (_React$Component) {
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'p',
           { className: 'box-text box-padding-left-md' },
-          "Hello, my name is Richard, I'm " + "an easy going Colorado Native born in Englewood and raised in Castle Rock. " + "I attended Douglas Country High School where I started programming as a freshman learning " + " Visual Basic. From that point on I was hooked on programming. "
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          { className: 'box-text box-padding-left-md' },
-          "I took a career in Goldsmithing after high school, due to my interest in metal working," + " before returning to College to obtain my degree in Computer Science. " + " I took a keen interest in Simulations to watch things evolve, being Biological or Geological. I also " + " love single paged Web Applications. I feel they are the future software for countless " + " businesses. "
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          { className: 'box-text box-padding-left-md' },
-          "My main interest is on building sleek simple single paged web applications that are " + " powerful but also user friendly with a strong desire to solve real customer problems." + " I've mainly worked with PHP on the backend and ReactJS along with native JavaScript. HTML and SASS."
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          { className: 'box-text box-padding-left-md' },
-          "This portfolio is rather new and I intend to start a blog for anyone visiting here to read. " + "My blog will focus on various aspects of my experiences with developing software and other side stuff " + "involving my interests."
+          "Hello, my name is Richard, I'm " + "an easy going Colorado Native born in Englewood and raised in Castle Rock. " + "I attended Douglas Country High School where I started programming as a freshman learning " + " Visual Basic and moved on to C++, Java, PHP, and eventually JavaScript "
         )
       );
     }
@@ -75803,11 +75788,8 @@ var MainStore = function (_EventEmitter) {
       subject: 'Degree',
       content: 'Bachelor\'s of Science in Computer Science'
     }, {
-      subject: 'Focus',
-      content: 'Software Development / Web Application Development'
-    }, {
       subject: 'Hobbies',
-      content: 'Studying Geology, Biology, Hiking/Climbing, Goldsmithing'
+      content: 'Studying Geology, Biology, Hiking/Climbing, Charcoal Artist'
     }];
 
     _this._projects = [__WEBPACK_IMPORTED_MODULE_0__components_partials_FactorioProject_js__["a" /* default */].partial(), __WEBPACK_IMPORTED_MODULE_4__components_partials_StoryBoards_js__["a" /* default */].partial(), __WEBPACK_IMPORTED_MODULE_1__components_partials_LaravelReactTemplate_js__["a" /* default */].partial(), __WEBPACK_IMPORTED_MODULE_2__components_partials_RowdyProject_js__["a" /* default */].partial()];
